@@ -4,7 +4,13 @@ import { Separator } from "@/components/ui/separator";
 // REACT ICONS
 import { IoMenu } from "react-icons/io5";
 
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import {
+  Sheet,
+  SheetContent,
+  SheetTitle,
+  SheetTrigger,
+  SheetDescription,
+} from "@/components/ui/sheet";
 import NavigationLinks from "../NavigationLinks";
 
 export default function SideBar() {
@@ -16,6 +22,8 @@ export default function SideBar() {
         </Button>
       </SheetTrigger>
       <SheetContent className="flex flex-col justify-center items-center space-y-8">
+        <SheetTitle className="hidden">Are you absolutely sure?</SheetTitle>
+        <SheetDescription className="hidden"></SheetDescription>
         <div className="py-10">
           <NavigationLinks
             className={"flex flex-col items-center space-y-14 text-2xl"}
