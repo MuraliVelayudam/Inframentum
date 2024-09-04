@@ -1,5 +1,5 @@
-import { Button } from "../../ui/button";
-import { Separator } from "@/components/ui/separator";
+import { Button } from "../../ui/button.jsx";
+import { Separator } from "../../ui/separator.jsx";
 
 // REACT ICONS
 import { IoMenu } from "react-icons/io5";
@@ -10,7 +10,7 @@ import {
   SheetTitle,
   SheetTrigger,
   SheetDescription,
-} from "@/components/ui/sheet";
+} from "../../ui/sheet.jsx";
 import NavigationLinks from "../NavigationLinks";
 
 export default function SideBar() {
