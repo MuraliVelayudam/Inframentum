@@ -1,7 +1,7 @@
 import logo from "../../../assets/images/logo.png";
 
 // SEPARATOR
-import { Separator } from "../../ui/separator.jsx";
+import { Separator } from "../../ui/separator";
 
 // FOOTER LINK IMPORT
 import { company, help, resources } from "@/constants";
